@@ -1,40 +1,14 @@
-Scrollbar styling .ulContainer::-webkit-scrollbar {
-  height: 10px;
-}
-
-.ulContainer::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-
-.ulContainer::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-}
-
-.ulContainer::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-.ulContainer {
-  cursor: grab;
-}
-
-.ulContainer.active {
-  cursor: grabbing;
-  cursor: -webkit-grabbing;
-}
-
 .ulContainer {
   display: flex;
   overflow-x: auto;
-  width: 100vw;
+  width: 95vw;
+  margin: 0px;
   user-select: none;
   scrollbar-color: #888 #f1f1f1;
 }
 .mainContainer {
   background-color: aquamarine;
-  padding: 10px;
+  padding: 20px;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -73,7 +47,7 @@ Scrollbar styling .ulContainer::-webkit-scrollbar {
   justify-content: center;
   width: 20vw;
   margin: 3px;
-  color: #8B4513;
+  color: #8b4513;
   font-size: 25px;
 }
 .listlogo {
@@ -85,4 +59,7 @@ Scrollbar styling .ulContainer::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.reactHeading {
+  margin: 0px;
 }
