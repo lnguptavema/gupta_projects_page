@@ -3,15 +3,21 @@ import './index.css'
 const Header = () => (
   <div className="mainContainer">
     <h1 className="name">Gupta Projects</h1>
+    <a href="https://github.com/lnguptavema" target="_blank" rel="noreferrer">
+      <h3> My Github: https://github.com/lnguptavema</h3>{' '}
+    </a>
     <h1>HTML Projects</h1>
+    <h1>Javascript Projects</h1>
     <h1 className="reactHeading">ReactJS Projects</h1>
     <ul className="ulContainer">
       <li className="listContainer">
-        <img
-          src="https://s2.ezgif.com/tmp/ezgif-284d95739e3cd4.gif"
-          alt="gif"
-          className="listlogo"
-        />
+        <video className="listlogoVideo">
+          <track kind="captions" />{' '}
+          <source
+            src="https://res.cloudinary.com/dqvj28bsp/video/upload/v1761232861/match-game-output_c4ty8i.mp4"
+            type="video/mp4"
+          />
+        </video>
         <h1 className="nameProject">Match Game</h1>
         <div>
           <p className="livePara">Live Link:</p>
