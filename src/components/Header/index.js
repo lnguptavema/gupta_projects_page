@@ -14,6 +14,7 @@ class Header extends Component {
         >
           <h3> My Github: https://github.com/lnguptavema</h3>{' '}
         </a>
+        <h1 className="frontend">Frontend Projects</h1>
         <h1>HTML Projects</h1>
         <ul className="ulContainer">
           {' '}
@@ -67,11 +68,18 @@ class Header extends Component {
             <div>
               <p className="livePara">Live Link:</p>
               <a
-                href="https://nxtauthentic30.ccbp.tech/"
+                href="https://nxttrendz30vlng.ccbp.tech/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <p className="linkPara">https://nxtauthentic30.ccbp.tech/</p>
+                <p className="linkPara">nxttrendz30vlng.ccbp.tech</p>
+              </a>{' '}
+              <a
+                href="https://github.com/lnguptavema/nxt_authentication_react_30.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
               </a>
             </div>
           </li>{' '}
@@ -464,6 +472,7 @@ class Header extends Component {
             </div>
           </li>
         </ul>
+        <h1>Nodejs Projects</h1>
         <h1>Experiment Projects</h1>
         <ul className="ulContainer">
           {' '}
