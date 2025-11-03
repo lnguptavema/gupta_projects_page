@@ -61,6 +61,31 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
+              src="https://s8.ezgif.com/tmp/ezgif-83285aa97ead63.gif"
+              alt="gif"
+            />
+            <h1 className="nameProject">Jobby App</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://jobbygupta34.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">jobbygupta34.ccbp.tech</p>
+              </a>{' '}
+              <a
+                href="https://github.com/lnguptavema/jobby_app_34.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>{' '}
+          <li className="listContainer">
+            <img
+              className="listlogo"
               src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-protected-route-output.gif"
               alt="gif"
             />
