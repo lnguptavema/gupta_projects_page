@@ -61,7 +61,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://s8.ezgif.com/tmp/ezgif-83285aa97ead63.gif"
+              src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1762263164/jobby-app-success-output-v0_a8pjge.gif"
               alt="gif"
             />
             <h1 className="nameProject">Jobby App</h1>
