@@ -9,11 +9,18 @@
 .frontend {
   font-family: serif;
 }
+h1 {
+  color: #ff0000;
+}
 .mainContainer {
   background-color: aquamarine;
   padding: 20px;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
+}
+h3,
+h4 {
+  color: blue;
 }
 .name {
   margin: 0px;
