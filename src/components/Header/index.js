@@ -18,6 +18,164 @@ class Header extends Component {
         <h1 className="reactHeading">ReactJS Projects</h1>
         <ul className="ulContainer">
           <li className="listContainer">
+            <video width="220" height="350" controls>
+              <track
+                kind="captions"
+                src="captions.vtt"
+                srcLang="en"
+                label="English"
+              />
+              <source
+                src="https://assets.ccbp.in/frontend/content/react-js/prime-video-output.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <h1 className="nameProject">Prime Video</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://primevideo41.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">primevideo41.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/primevideo_react_41"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>
+          <li className="listContainer">
+            <img
+              className="listlogo"
+              src="https://camo.githubusercontent.com/5e6490def28a2435e2aa488086a33f9e06873152df86cb28cff37512b85f492c/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f636362702d74696d656c696e652d6f75747075742e676966"
+              alt="gif"
+            />
+            <h1 className="nameProject">ccbp Journey Chrono</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://ccbpjrneyvlng38.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">ccbpjrneyvlng38.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/ccbpJourney_react_38"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>
+          <li className="listContainer">
+            <img
+              className="listlogo"
+              src="https://camo.githubusercontent.com/625b98c95952be8b0d38604f4ae178288a50c98a0d1f6d2ddbfd5c5009b9c287/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6772616469656e742d67656e657261746f722d6f75747075742d76302e676966"
+              alt="gif"
+            />
+            <h1 className="nameProject">Gradient Generator</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://grdientvlng37.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">grdientvlng37.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/gradient_generator_react_37"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>{' '}
+          <li className="listContainer">
+            <img
+              className="listlogo"
+              src="https://camo.githubusercontent.com/a92d7bc56e04c2bcd3df56cf80830800ced8bdf46cc2f24bac83246ad5dfb3d1/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6d656d652d67656e657261746f722d6f75747075742e676966"
+              alt="gif"
+            />
+            <h1 className="nameProject">Meme Generator</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://memegen36vlng.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">memegen36vlng.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/meme_generator_react_36"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>{' '}
+          <li className="listContainer">
+            <img
+              className="listlogo"
+              src="https://camo.githubusercontent.com/d663bbbbcabc19298a848244a8e0042de4ea834a1df287a4b592f875c8b14180/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6c61796f75742d6275696c6465722d6f75747075742e676966"
+              alt="gif"
+            />
+            <h1 className="nameProject">Layout Builder</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://layout35vlng.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">layout35vlng.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/layout_builder_react_35"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>{' '}
+          <li className="listContainer">
+            <img
+              className="listlogo"
+              src="https://camo.githubusercontent.com/b5d56bd774385b60ec7e50a3ae13f60aa29a65c3bd28246f814d85d109879529/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6769746875622d706f70756c61722d7265706f732d6f75747075742e676966"
+              alt="gif"
+            />
+            <h1 className="nameProject">Github Popular Repos</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://gitrepo33.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">gitrepo33.ccbp.tech</p>
+              </a>{' '}
+              <a
+                href="https://github.com/lnguptavema/git_repos_react_33"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>{' '}
+          <li className="listContainer">
             <img
               className="listlogo"
               src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1762263164/jobby-app-success-output-v0_a8pjge.gif"
@@ -624,7 +782,7 @@ class Header extends Component {
         <h1>Nodejs Projects</h1>
         <ul className="ulContainer">
           {' '}
-          <li className="listContainer">
+          <li className="listContainerNode">
             <h1 className="nameProject">Twitter Clone App (backend code)</h1>
             <div>
               <a
@@ -637,7 +795,7 @@ class Header extends Component {
               </a>
             </div>
           </li>{' '}
-          <li className="listContainer">
+          <li className="listContainerNode">
             <h1 className="nameProject">Authentication (backend code)</h1>
             <div>
               <a
@@ -654,9 +812,9 @@ class Header extends Component {
         <h1>Javascript Projects</h1>
         <ul className="ulContainer">
           {' '}
-          <li className="listContainer">
+          <li className="listContainerJs">
             <img
-              className="listlogo"
+              className="listlogoJs"
               src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1761476099/Screenshot_2025-10-26_162449_eexovr.png"
               alt="gif"
             />
@@ -684,9 +842,9 @@ class Header extends Component {
         <h1>HTML Projects</h1>
         <ul className="ulContainer">
           {' '}
-          <li className="listContainer">
+          <li className="listContainerHtml">
             <img
-              className="listlogo"
+              className="listlogoHtml"
               src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1761475932/Screenshot_2025-10-26_162101_cl8jup.png"
               alt="gif"
             />
@@ -714,9 +872,9 @@ class Header extends Component {
         <h1>Experiment Projects</h1>
         <ul className="ulContainer">
           {' '}
-          <li className="listContainer">
+          <li className="listContainerExp">
             <img
-              className="listlogo"
+              className="listlogoExp"
               src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1761634157/Screenshot_2025-10-28_121848_tmatv4.png"
               alt="gif"
             />
