@@ -26,6 +26,64 @@ class Header extends Component {
                 label="English"
               />
               <source
+                src="https://res.cloudinary.com/dqvj28bsp/video/upload/v1770814034/nxt-watch-output_s5ileh.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <h1 className="nameProject">Nxt Watch App</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://nxtwatch43vlng.ccbp.tech/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">nxtwatch43vlng.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/nxtwatch_react_43"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>
+          <li className="listContainer">
+            <img
+              className="listlogo"
+              src="https://camo.githubusercontent.com/0f0b280dadf8e1b82e9a2826e88d735a2c28a3db1ab06cce85da6395ba5260dc/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f726f636b2d70617065722d73636973736f72732d6f75747075742e676966"
+              alt="gif"
+            />
+            <h1 className="nameProject">Rock Paper Game</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="http://rockgame42.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">rockgame42.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/rock_paper_scissor_react_42"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>
+          <li className="listContainer">
+            <video width="220" height="350" controls>
+              <track
+                kind="captions"
+                src="captions.vtt"
+                srcLang="en"
+                label="English"
+              />
+              <source
                 src="https://assets.ccbp.in/frontend/content/react-js/prime-video-output.mp4"
                 type="video/mp4"
               />
