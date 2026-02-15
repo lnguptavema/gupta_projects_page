@@ -14,9 +14,42 @@ class Header extends Component {
         >
           <h3> My Github: https://github.com/lnguptavema</h3>{' '}
         </a>
-        <h1 className="frontend">Frontend Projects</h1>
+        {/* <h1 className="frontend">Frontend Projects</h1> */}
         <h1 className="reactHeading">ReactJS Projects</h1>
         <ul className="ulContainer">
+          <li className="listContainer">
+            <video width="220" height="350" controls>
+              <track
+                kind="captions"
+                src="captions.vtt"
+                srcLang="en"
+                label="English"
+              />
+              <source
+                src="https://res.cloudinary.com/dqvj28bsp/video/upload/v1771158601/my-tasks-output_euknnd.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <h1 className="nameProject">My Tasks App</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://mytasks44vlng.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">mytasks44vlng.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/myTasks_react_44"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github Code</h4>
+              </a>
+            </div>
+          </li>
           <li className="listContainer">
             <video width="220" height="350" controls>
               <track
@@ -286,7 +319,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/efebbb23f52eeb9b854c716e20c2976911d0b74f8a5f8ec8426ce14a5b63bf4f/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f63727970746f63757272656e63792d747261636b65722d6f75747075742e676966"
+              src="https://camo.githubusercontent.com/947b8d283b2eb05b8233726b388f43d14f59039ba95c3bf927ad61ea8b016a5e/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f63727970746f63757272656e63792d747261636b65722d6f75747075742e676966"
               alt="gif"
             />
             <h1 className="nameProject">Cryptocurrency Tracker</h1>
@@ -311,7 +344,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/55a9adcce40c937e0965e8b4fc0ffd93cb359b2f623f352ea299822786ce8fe0/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f69706c2d64617368626f6172642d6f75747075742d76322e676966"
+              src="https://camo.githubusercontent.com/b63ad2bfd945ece1066a5f0f3145bc92fcf429ccfa8015090a9634f2bc497a2a/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f69706c2d64617368626f6172642d6f75747075742d76322e676966"
               alt="gif"
             />
             <h1 className="nameProject">IPL Dashboard App</h1>
@@ -325,7 +358,7 @@ class Header extends Component {
                 <p className="linkPara">https://iplvlng29.ccbp.tech/</p>
               </a>
               <a
-                href="https://github.com/lnguptavema/cryptocurrency_react_28"
+                href="https://github.com/lnguptavema/ipl_react_29"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -336,7 +369,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/865a44c5aebae94eb9710850b5159889316bd1e3477dac1cd6d19f08737761d1/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f66657463682d616e642d726f7574696e672d70726163746963652d6f75747075742e676966"
+              src="https://camo.githubusercontent.com/b5b1c349661f70270e728b28756c2ff269547e7a7b2d4beb15e1c7aa834bbdda/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f66657463682d616e642d726f7574696e672d70726163746963652d6f75747075742e676966"
               alt="gif"
             />
             <h1 className="nameProject">Blog fetch App</h1>
@@ -362,7 +395,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/b8cf32d43acfc6901bb7d04ea1c709b58cf3352e2e67e01e9aaa16b12573f5cd/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f666171732d6f75747075742d76332e676966"
+              src="https://camo.githubusercontent.com/3874838dc59a5c3d3c07f2323ade11f2515c9445e137473bbc5c5c01ad666017/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f666171732d6f75747075742d76332e676966"
               alt="gif"
             />
             <h1 className="nameProject">Faqs App</h1>
@@ -425,7 +458,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/63e4c5093a0fc73f3c2a884c244191b26173c5c555f8bba8398a2cd811117e7e/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f706173736f7772642d6d616e616765722d6f75747075742d76302e676966"
+              src="https://camo.githubusercontent.com/23d2b70009540e0b121fb001c15d9d984996bcbd3516a3ab893a697a85218cea/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f706173736f7772642d6d616e616765722d6f75747075742d76302e676966"
               alt="gif"
             />
             <h1 className="nameProject">Password Manager</h1>
@@ -451,7 +484,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/dbe00f791706ab6bec4563338b85fde9667677f3bf12238aabd028685246c8cd/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f73746f7077617463682d6f75747075742d76322e676966"
+              src="https://camo.githubusercontent.com/f615beb6be28c24914ec313037e89e269cde5c251030c858a85282c754d97de7/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f73746f7077617463682d6f75747075742d76322e676966"
               alt="gif"
             />
             <h1 className="nameProject">Stop Watch</h1>
@@ -477,7 +510,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/e6bf16a4afd7053a40b461f0206a2205275183628215036874960dc59ec5aff7/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f656d6f6a692d67616d652d6f75747075742d76322e676966"
+              src="https://camo.githubusercontent.com/4502547edd208e59dc993f474d72ab083c611af82d62396a1a691853212dcbfe/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f656d6f6a692d67616d652d6f75747075742d76322e676966"
               alt="gif"
             />
             <h1 className="nameProject">Emoji Game</h1>
@@ -503,7 +536,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/0c2939f5b9c53abb2c1a1e71fa743b7a9888fcab4332ef058e427b66f63d268f/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6469676974616c2d74696d65722d6f75747075742e676966"
+              src="https://camo.githubusercontent.com/32ade7eb46eef49d86690fe621820d3e935f012876ba8d41ec86440afcdbc98d/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6469676974616c2d74696d65722d6f75747075742e676966"
               alt="gif"
             />
             <h1 className="nameProject">Digital Clock</h1>
@@ -529,7 +562,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/7253156610c80414823ab81f96b4102f3b02de52c0e069158b9e745aee9a05e3/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6d6f6e65792d6d616e616765722d6f75747075742e676966"
+              src="https://camo.githubusercontent.com/753bc8fa2e05fda2327734938a19f17459abf715d2bb2a40102bdb19e3922809/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6d6f6e65792d6d616e616765722d6f75747075742e676966"
               alt="gif"
             />
             <h1 className="nameProject">Money Manager</h1>
@@ -555,7 +588,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/55e545f64ab676c71faf9e03a3692d29c13d0e9c466f8d6a07d1c4f1a4eba83a/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6170706f696e746d656e74732d6170702d6f75747075742e676966"
+              src="https://camo.githubusercontent.com/abef588ffbf6fd834a77b4414e4566f91d76af760e3d95884fafa281783a2e43/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6170706f696e746d656e74732d6170702d6f75747075742e676966"
               alt="gif"
             />
             <h1 className="nameProject">Appointment</h1>
@@ -581,7 +614,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/99ce7923b4bfe921ad97edfc89c1393793c3f0205cf7afd1c563059603be914e/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f636f6d6d656e74732d6170702d6f75747075742d76302e676966"
+              src="https://camo.githubusercontent.com/c72943a13ff94a3b45b2fab3eb7dd56361a349b62fe10c50ddc4b467c5a9b549/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f636f6d6d656e74732d6170702d6f75747075742d76302e676966"
               alt="gif"
             />
             <h1 className="nameProject">Comments</h1>
@@ -607,7 +640,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/bb43b03e1463e322e84be58b3a9b1b3987985c05693223d0070904daeb3546d9/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f726576696577732d6170702d6f75747075742d76322e676966"
+              src="https://camo.githubusercontent.com/a30cd3c99bbb78fb77c0e38a7f1d3061437900604428f18dfe0b27cd9f19418b/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f726576696577732d6170702d6f75747075742d76322e676966"
               alt="gif"
             />
             <h1 className="nameProject">Reviews</h1>
@@ -633,7 +666,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/737cacba48e1d05483b9354e7e3de27ede7b8c07eb0c43b0ba9ce3d988dc65ba/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f636f696e2d746f73732d67616d652d6f75747075742e676966"
+              src="https://camo.githubusercontent.com/d820efd5957cfab2320bcb6ea64237b8bf70749f4dd44b2f1cc880288de08249/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f636f696e2d746f73732d67616d652d6f75747075742e676966"
               alt="gif"
             />
             <h1 className="nameProject">Coin Toss Game</h1>
@@ -685,7 +718,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/85267c6447bf8533c81ca7c109f811005f79f1ec5ac5db2e8a99b5e45ab8d4cf/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6361706974616c732d6170702d6f75747075742e676966"
+              src="https://camo.githubusercontent.com/a51b5bf36685e3f2c9a344a900c0d99db90c2d224ac92b21b3c7d5ac2d2caf83/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f6361706974616c732d6170702d6f75747075742e676966"
               alt="gif"
             />
             <h1 className="nameProject">Capitals App</h1>
@@ -711,7 +744,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/42392d53d576348f8c3890ff8de10d11ab2cf842c52a29e386ee340fbb0dfa0b/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f64657374696e6174696f6e2d7365617263682d6f75747075742d76322e676966"
+              src="https://camo.githubusercontent.com/45eb42c19793551b14f42e4bc845c7358adaca19b0cda38a6d3a8598b4f55f3e/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f64657374696e6174696f6e2d7365617263682d6f75747075742d76322e676966"
               alt="gif"
             />
             <h1 className="nameProject">Destination Search </h1>
@@ -737,7 +770,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/f91ef3273f042115348db5e3500451e0237bbf2231acaa92afbee90219051044/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f636173682d7769746864726177616c2d6f75747075742d76322e676966"
+              src="https://camo.githubusercontent.com/41bebc7c1461b885aa8663356aacf502eeac6b9fdeca1dc1c2c8ee23076bac14/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f636173682d7769746864726177616c2d6f75747075742d76322e676966"
               alt="gif"
             />
             <h1 className="nameProject"> Cash Withdrawal </h1>
@@ -763,7 +796,7 @@ class Header extends Component {
           <li className="listContainer">
             <img
               className="listlogo"
-              src="https://camo.githubusercontent.com/d64f4efbb0aab4ef8f95e26375625d764f2d006607c4a97205b0161c6009b12d/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f666565646261636b2d6170702d6f75747075742d76322e676966"
+              src="https://camo.githubusercontent.com/054f16ef801fb6893e76f2f5e38b1cd6345b5c43458347e1918b4a29489a97d6/68747470733a2f2f6173736574732e636362702e696e2f66726f6e74656e642f636f6e74656e742f72656163742d6a732f666565646261636b2d6170702d6f75747075742d76322e676966"
               alt="gif"
             />
             <h1 className="nameProject"> Feedback App </h1>
