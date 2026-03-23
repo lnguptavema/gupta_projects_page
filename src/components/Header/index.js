@@ -14,6 +14,15 @@ class Header extends Component {
         >
           <h3> My Github: https://github.com/lnguptavema</h3>{' '}
         </a>
+
+        <a
+          href="https://www.linkedin.com/in/v-l-n-gupta/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <h3> My Linkedin: https://www.linkedin.com/in/v-l-n-gupta/</h3>{' '}
+        </a>
+
         {/* <h1 className="frontend">Frontend Projects</h1> */}
         <h1 className="reactHeading">ReactJS Projects</h1>
         <ul className="ulContainer">
@@ -962,7 +971,32 @@ class Header extends Component {
         </ul>
         <h1>Experiment Projects</h1>
         <ul className="ulContainer">
-          {' '}
+          <li className="listContainerExp">
+            <img
+              className="listlogoExp"
+              src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1774246073/Screenshot_2026-03-23_113645_racbht.png"
+              alt="gif"
+            />
+            <h1 className="nameProject">Quiz App</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://guptaquiz.ccbp.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkPara">guptaquiz.ccbp.tech</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/gupta_motivation_page"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <h4>Github Code</h4>{' '}
+              </a>
+            </div>
+          </li>{' '}
           <li className="listContainerExp">
             <img
               className="listlogoExp"
@@ -989,6 +1023,151 @@ class Header extends Component {
               </a>
             </div>
           </li>{' '}
+        </ul>
+        <h1>Certifications</h1>
+        <ul className="ulContainer">
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/react-js?id=MADXCMFMOB"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/MADXCMFMOB.png"
+              />
+            </a>
+          </li>{' '}
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/programming-foundations-with-python?id=BJSOYLVKOL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/BJSOYLVKOL.png"
+              />
+            </a>
+          </li>{' '}
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/node-js?id=GXDLOFEHVG"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/GXDLOFEHVG.png"
+              />
+            </a>
+          </li>{' '}
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/javascript-essentials?id=UJVFKUTAVV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/UJVFKUTAVV.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/introduction-to-databases?id=DMRTSJRFKU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/DMRTSJRFKU.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/dynamic-web-application?id=ELLMPDNLBF"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/ELLMPDNLBF.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/developer-foundations?id=EQERITOGIH"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/EQERITOGIH.png"
+              />
+            </a>
+          </li>{' '}
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/responsive-web-design-using-flexbox?id=ZKBIAUJZRM "
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/ZKBIAUJZRM.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://certificates.ccbp.in/academy/static-website/?id=RAUWDTHTNP"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <img
+                className="imgCertificate"
+                alt="Certificate"
+                src="https://media-content.ccbp.in/certificates/share/RAUWDTHTNP.png"
+              />
+            </a>
+          </li>
+        </ul>
+        <h1>Certifications</h1>
+        <ul>
+          <li>
+            <a
+              href="https://cdn1.ccbp.in/misc/workshop-salseforce-agentblazer-completion/LYEJYW1VHS.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="imgCertificate"
+                src="https://cdn1.ccbp.in/misc/workshop-salseforce-agentblazer-completion/LYEJYW1VHS.png"
+                alt="certificate"
+              />
+            </a>
+          </li>
         </ul>
       </div>
     )

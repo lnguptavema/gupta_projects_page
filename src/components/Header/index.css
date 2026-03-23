@@ -201,3 +201,11 @@ h4 {
     height: 30vh;
   }
 }
+.imgCertificate {
+  height: 40vh;
+  width: 30vw;
+  margin: 10px;
+}
+li {
+  list-style-type: none;
+}
