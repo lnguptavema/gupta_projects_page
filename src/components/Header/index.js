@@ -974,6 +974,58 @@ class Header extends Component {
           <li className="listContainerExp">
             <img
               className="listlogoExp"
+              src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1783163094/Screenshot_2026-07-04_163442_kzlvjm.png"
+              alt="gif"
+            />
+            <h1 className="nameProject">Referral App</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://go-business-react.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkParaVercel">go-business.vercel.app</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/goBusiness_react"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <h4>Github Code</h4>{' '}
+              </a>
+            </div>
+          </li>{' '}
+          <li className="listContainerExp">
+            <img
+              className="listlogoExp"
+              src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1783162970/Screenshot_2026-07-04_163233_g9wwxe.png"
+              alt="gif"
+            />
+            <h1 className="nameProject">User Directory App</h1>
+            <div>
+              <p className="livePara">Live Link:</p>
+              <a
+                href="https://buyerassign.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="linkParaVercel">buyerassign.vercel.app</p>
+              </a>
+              <a
+                href="https://github.com/lnguptavema/Buyer_frontend_Assign"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                <h4>Github Code</h4>{' '}
+              </a>
+            </div>
+          </li>{' '}
+          <li className="listContainerExp">
+            <img
+              className="listlogoExp"
               src="https://res.cloudinary.com/dqvj28bsp/image/upload/v1774246073/Screenshot_2026-03-23_113645_racbht.png"
               alt="gif"
             />
